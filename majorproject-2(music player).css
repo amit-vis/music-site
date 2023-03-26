@@ -1,0 +1,805 @@
+body{
+	background-color: #051b34;
+	animation: transitionIn 1s;
+}
+
+/* -------nav bar---------*/
+nav{
+	background-color: #051b34;
+}
+.nav-link{
+	margin-left: 4rem;
+}
+.form{
+	width: 22%;
+	background-color: #0e0f2a;
+	padding: .4rem;
+	border-radius: 5px;
+	margin-left: 63%;
+}
+.form i{
+	position: absolute;
+}
+.form>input{
+	width: 86%;
+	margin-left: 8%;
+	border: none;
+	background-color: transparent;
+	outline: 0px;
+	color: white;
+}
+.text-light{
+	margin-top: 6px;
+}
+.bell-icon{
+	position: relative;
+	margin-right: 4%;
+}
+/*---------------------------main section-------------------------------------------*/
+main{
+	width: 70%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.main-poster{
+	margin-top: 5%;
+	background-color: #131c44;
+	width: 95%;
+	height: 400px;
+	margin-left: 2%;
+}
+.coldplay{
+	width: 12%;
+	margin-left: 32%;
+	margin-top: -35%;
+}
+.paragraph{
+	width: 60%;
+	margin-left: 32%;
+	text-align: justify;
+}
+.followers{
+	display: block;
+	width: 13%;
+	margin-left: 80%;
+	margin-top: -21%;
+}
+button[type='submit']{
+	margin-left: 32%;
+	margin-top: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: .3%;
+	padding-bottom: .3%;
+	text-align: center;
+	border: none;
+	background-image: linear-gradient(-45deg, #4531b8,#8344cd,#b454db);
+}
+.follow{
+	display: block;
+	width: 5%;
+	margin-left: 50%;
+	margin-top: -2.7%;
+	font-weight: 600;
+}
+
+/*------------------------------playlist section---------------------------------*/
+.play-list{
+	box-sizing: border-box;
+}
+.playlist-1{
+	background-color: #353a54;
+	width: 95%;
+	height: 5rem;
+	margin-left: 2%;
+	margin-top: 1%;
+	list-style: none;
+}
+
+.playlist-1:hover{
+	background-color: #293051;
+}
+.playlist-1 img{
+	margin-top: .8%;
+}
+.mirage{
+	width: 6%;
+	margin-left: 6.5%;
+	margin-top: -6%;
+}
+.else{
+	margin-left: 6.5%;
+	margin-top: -1%;
+	width: 2.5%;
+	display: block;
+	font-size: .8rem;
+}
+.heart{
+	display: block;
+	width: 2%;
+	margin-left: 87%;
+	margin-top: -4%;
+	transition: margin-left 1s ease-in-out;
+}
+
+.heart:hover{
+	margin-left: 10px;
+}
+.plus{
+	display: block;
+	width: 2%;
+	margin-left: 92%;
+	margin-top: -2.6%;
+}
+
+
+/*----------------Aside section-------------------*/
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 28%;
+  margin-top: 5%;
+  background-color: #051b34;
+  overflow: scroll;
+  height: 100%;
+  position: fixed;
+  box-sizing: border-box;
+}
+aside::-webkit-scrollbar{
+	display: none;
+}
+
+.queue-list{
+	display: inline-block;
+	font-size: 1rem;
+	background-color: #051b34;
+	width: 100%;
+	margin-left: 2%;
+}
+.play-queue{
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.play-queue>img{
+	box-shadow: 0 0 10px whitesmoke;
+
+}
+.else-aside{
+	width: 10%;
+	margin-left: 22%;
+	margin-top: -5%;
+}
+.mirage-aside{
+	width: 10%;
+	margin-left: 22%;
+	margin-top: -20%;
+}
+.heart-queue{
+	width: 5%;
+	margin-left: 85%;
+	margin-top: -17%;
+}
+
+.heart-queue:hover{
+	transform: scale3d(-1.1,1.5,0.7)
+}
+.play-queue-li{
+	margin-left: 5%;
+	margin-top: 4%;
+	width: 90%;
+}
+li{
+	margin-top: 2%;
+}
+
+
+/*---------------------similar artist---------------------------------*/
+.similar-artist{
+	position: fixed;
+	width: 100%;
+	height: 500px;
+	background-color: darkred;
+}
+.similarartist-1{
+	background-color: red;
+}
+
+
+
+/*-----------------------------recentaly played---------------------------*/
+.recent-art{
+	margin-top: 5%;
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+.view-all{
+	width: 13%;
+	font-size: .7rem;
+	margin-left: 85%;
+	margin-top: -7%;
+}
+.recentaly-played{
+	margin-top: 6%;
+}
+.recentalyplayed{
+	height: 50px;
+	margin-top: 2%;
+}
+.recent-heart{
+	display: block;
+	width: 5%;
+	margin-left: 90%;
+	margin-top: -13%;
+}
+.recent-mirage{
+	margin-left: 16%;
+	width: 15%;
+	margin-top: -6%;
+	font-weight: 700;
+	font-size: .8rem;
+}
+.recent-else{
+	width: 8%;
+	margin-left: 16%;
+	margin-top: -5%;
+	font-size: .7rem;
+	font-weight: 700;
+}
+
+
+
+
+/*-------------------------------footer section---------------------------*/
+.bg-dark{
+	height: 70px;
+	width: 100%;
+}
+.play-music{
+	margin-top: .5%;
+	margin-left: 5%;
+}
+.singer{
+	opacity: .5;
+	display: block;
+	width: 10%;
+	margin-left: 4.5%;
+	margin-top: -2.5%;
+}
+.contrast{
+	rotate: 45deg;
+}
+.icon{
+	display: block;
+	width: 10%;
+	margin-left: 8.5%;
+	margin-top: -2.8%;
+}
+.ml-2{
+	margin-left: .5%;
+}
+.play-pause-btn{
+	display: flex;
+	justify-content: space-around;
+	width: 20%;
+	margin-top: -3.5%;
+	margin-left: 40%;
+}
+.fa-shuffle{
+	opacity: .6;
+}
+.fa-circle-play{
+	font-size: 2rem;
+	font-weight: 100;
+}
+.play-btn{
+	margin-top: -3%;
+}
+.timing{
+	margin-left: 9%;
+	margin-top: 3%;
+}
+.timing-end{
+	margin-top: 3%;
+}
+
+.play-btn-bar{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: -1%;
+	display: flex;
+	justify-content: space-around;
+}
+.range{
+	width: 80%;
+}
+
+.side-bar{
+	display: flex;
+	justify-content: space-between;
+	width: 15%;
+	margin-left: 80%;
+	margin-top: -5.5%;
+}
+.sound-range{
+	width: 100%;
+	height: 10%;
+}
+.sound-range-fix{
+	width: 30%;
+	margin-top: -2%;
+}
+
+
+@keyframes transitionIn {
+	from{
+		opacity: 0;
+		transform: rotate3d(1,1,0.5, 2.142rad);
+	}
+	to{
+		opacity: 4;
+		transform: rotate3d(0,0,0, 0deg);
+	}
+}
+
+@media screen and (max-width: 1100px){
+	/*---------------------nav bar------------------------*/
+	.form{
+		margin-left: 30%;
+		width: 50%;
+	}
+
+	/*-----------------------Aside section---------------------*/
+	.queue-list{
+		margin-top: 6%;
+	}
+	.mirage-aside{
+		margin-left: 22%;
+		margin-top: -25%;
+	}
+	.else-aside{
+		margin-top: -10%;
+	}
+	.heart-queue{
+		margin-top: -20%;
+	}
+
+	/*----------------------main section---------------------*/
+	.main-poster{
+		margin-top: 15%;
+	}
+	.coldplay{
+		width: 12%;
+		margin-left: 32%;
+		margin-top: -50%;
+	}
+	button[type='submit']{
+		margin-left: 35%;
+		margin-top: 33%;
+	}
+	.follow{
+		margin-left: 55%;
+		margin-top: -4%;
+	}
+	.followers{
+		width: 16%;
+		margin-top: -32%;
+	}
+
+	/*---------------------------------playlist section-------------------------------------------*/
+	.play-list{
+		margin-bottom: 10%;
+	}
+	.mirage{
+		width: 6%;
+		margin-left: 8%;
+		margin-top: -7%;
+	}
+	.else{
+		margin-left: 8%;
+		margin-top: -1%;
+		width: 2.5%;
+	}
+	.plus{
+		margin-top: -3.6%;
+		margin-left: 90%;
+	}
+	.heart{
+		margin-top: -5%;
+		margin-left: 75%;
+	}
+	/*--------------------footer section------------------------*/
+
+	.singer{
+		margin-left: 5.5%;
+		margin-top: -3.5%;
+	}
+	.icon{
+		margin-top: -3.5%;
+		margin-left: 10.5%;
+	}
+	.play-pause-btn{
+		margin-top: -4%;
+		margin-left: 40%;
+	}
+	.play-btn-bar{
+		margin-left: 27%;
+	}
+	.timing-end{
+		margin-left: .5%;
+		margin-top: 3.5%;
+	}
+	.timing{
+		margin-left: 1%;
+	}
+	.side-bar{
+		width: 20%;
+		margin-top: -7%;
+		margin-left: 75%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	/*---------------------nav bar------------------------*/
+	.form{
+		margin-left: 25%;
+		width: 50%;
+	}
+
+	/*-----------------------Aside section---------------------*/
+	.queue-list{
+		margin-top: 8%;
+	}
+	.mirage-aside{
+		margin-left: 22%;
+		margin-top: -28%;
+	}
+	.heart-queue{
+		margin-top: -23%;
+	}
+	/*----------------------main section---------------------*/
+	.coldplay{
+		margin-top: -55%;
+	}
+	.follow{
+		margin-left: 65%;
+	}
+	.followers{
+		width: 16%;
+		margin-top: -39%;
+	}
+	button[type='submit']{
+		margin-left: 35%;
+		margin-top: 38%;
+	}
+		
+	/*---------------------------------playlist section-------------------------------------------*/
+	.mirage{
+		margin-left: 9%;
+		margin-top: -8%;
+	}
+	.else{
+		margin-left: 9%;
+		margin-top: -2%;
+	}
+	.plus{
+		margin-top: -3%;
+		margin-left: 90%;
+	}
+	.heart{
+		margin-top: -4.5%;
+		margin-left: 75%;
+	}
+
+	/*--------------------footer section------------------------*/
+
+	.singer{
+		margin-left: 6%;
+		margin-top: -3.5%;
+	}
+	.icon{
+		margin-top: -4%;
+		margin-left: 11.5%;
+	}
+	.play-btn-bar{
+		margin-left: 27%;
+		margin-top: -1.5%;
+	}
+	.timing-end{
+		margin-left: .5%;
+		margin-top: 3.5%;
+	}
+	.timing{
+		margin-left: 1%;
+	}
+	.side-bar{
+		width: 20%;
+		margin-top: -7%;
+		margin-left: 75%;
+	}
+	
+}
+@media screen and (max-width: 900px){
+	/*-----------------------Aside section---------------------*/
+	.queue-list{
+		margin-top: 11%;
+	}
+	.heart-queue{
+		margin-top: -35%;
+	}
+	/*----------------------main section---------------------*/
+	.coldplay{
+		margin-top: -65%;
+	}
+	.follow{
+		margin-left: 65%;
+		margin-top: -65;
+	}
+	.followers{
+		width: 19%;
+		margin-top: -47%;
+		margin-left: 75%;
+	}
+	button[type='submit']{
+		margin-left: 35%;
+		margin-top: 45%;
+	}
+	/*---------------------------------playlist section-------------------------------------------*/
+	.plus{
+		margin-top: -4%;
+		margin-left: 90%;
+	}
+	.heart{
+		margin-top: -6%;
+		margin-left: 75%;
+	}
+	/*--------------------footer section------------------------*/
+
+	.singer{
+		margin-left: 7%;
+		margin-top: -4.2%;
+		width: 15%;
+	}
+	.icon{
+		margin-left: 12.5%;
+	}
+	.play-btn-bar{
+		margin-left: 27%;
+		margin-top: -2%;
+	}
+	.side-bar{
+		margin-top: -8%;
+	}
+	.play-pause-btn{
+		margin-top: -4.5%;
+	}
+
+}
+@media screen and (max-width: 800px){
+	/*---------------------nav bar------------------------*/
+	.form{
+		margin-left: 20%;
+		width: 50%;
+	}
+	/*----------------------main section---------------------*/
+	.coldplay{
+		margin-top: -73%;
+	}
+	.followers{
+		margin-top: -58%;
+	}
+	button[type='submit']{
+		margin-left: 35%;
+		margin-top: 55%;
+	}
+	/*-----------------------Aside section---------------------*/
+	.queue-list{
+		margin-top: 15%;
+	}
+	.heart-queue{
+		margin-top: -35%;
+	}
+	.play-queue{
+		height: 50px;
+	}
+	.mirage-aside{
+		margin-left: 24%;
+	}
+	.else-aside{
+		margin-left: 24%;
+	}
+	/*---------------------------------playlist section-------------------------------------------*/
+	.play-list{
+		margin-bottom: 15%;
+	}
+	.mirage{
+		margin-left: 11%;
+		margin-top: -9%;
+	}
+	.else{
+		margin-left: 11%;
+		margin-top: -2%;
+	}
+	.plus{
+		margin-top: -5%;
+		margin-left: 90%;
+	}
+	.heart{
+		margin-top: -7%;
+		margin-left: 75%;
+	}
+	/*--------------------footer section------------------------*/
+
+	.singer{
+		margin-left: 7.7%;
+		margin-top: -4.5%;
+	}
+	.icon{
+		margin-left: 14%;
+		margin-top: -5%;
+	}
+	.play-pause-btn{
+		margin-top: -5%;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	/*---------------------nav bar------------------------*/
+	.form{
+		margin-left: 15%;
+		width: 50%;
+	}
+	/*----------------------main section---------------------*/
+	.coldplay{
+		margin-top: -63%;
+	}
+	.followers{
+		margin-top: -63%;
+		width: 25%;
+	}
+	button[type='submit']{
+		margin-top: 56%;
+	}
+	.main-poster{
+		height: 300px;
+	}
+	.paragraph{
+		width: 65%;
+		font-size: 14px;
+	}
+	/*-----------------------Aside section---------------------*/
+	.queue-list{
+		margin-top: 20%;
+	}
+	.else-aside{
+		margin-top: -15%;
+	}
+	/*---------------------------------playlist section-------------------------------------------*/
+	.play-list{
+		margin-bottom: 15%;
+	}
+	.mirage{
+		margin-left: 13%;
+		margin-top: -10%;
+	}
+	.else{
+		margin-left: 13%;
+	}
+	.plus{
+		margin-top: -5.5%;
+		margin-left: 88%;
+	}
+	.heart{
+		margin-top: -9%;
+		margin-left: 70%;
+	}
+	/*--------------------footer section------------------------*/
+
+	.singer{
+		margin-left: 8.5%;
+		margin-top: -5.3%;
+	}
+	.icon{
+		margin-left: 16%;
+		margin-top: -6%;
+	}
+	.side-bar{
+		margin-top: -10%;
+	}
+	.play-pause-btn{
+		margin-top: -5.5%;
+		width: 25%;
+		margin-left: 35%;
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+	/*---------------------nav bar------------------------*/
+	.form{
+		margin-left: 6%;
+		width: 65%;
+	}
+	.nav-link{
+		margin-left: 4%;
+	}
+	/*----------------------main section---------------------*/
+	.coldplay{
+		margin-top: -70%;
+	}
+	.followers{
+		margin-top: -75%;
+		width: 25%;
+		margin-left: 72%;
+	}
+	button[type='submit']{
+		margin-top: 67%;
+	}
+	.paragraph{
+		font-size: 12.5px;
+	}
+	.follow{
+		margin-top: -7%;
+	}
+	/*-----------------------Aside section---------------------*/
+	.queue-list{
+		margin-top: 25%;
+	}
+	.mirage-aside{
+		margin-top: -37%;
+	}
+	.else-aside{
+		margin-top: -20%;
+	}
+	.heart-queue{
+		margin-top: -45%;
+	}
+	/*---------------------------------playlist section-------------------------------------------*/
+	.play-list{
+		margin-bottom: 15%;
+	}
+	.mirage{
+		margin-left: 15%;
+		margin-top: -13%;
+	}
+	.else{
+		margin-left: 15%;
+		margin-top: -3%;
+	}
+	.plus{
+		margin-top: -6%;
+		margin-left: 85%;
+	}
+	.heart{
+		margin-top: -9%;
+		margin-left: 70%;
+	}
+	/*--------------------footer section------------------------*/
+
+	.singer{
+		margin-left: 9.5%;
+		margin-top: -6%;
+		width: 20%;
+	}
+	.icon{
+		margin-left: 18.5%;
+		margin-top: -7%;
+	}
+	.side-bar{
+		margin-top: -12%;
+	}
+	.play-pause-btn{
+		margin-top: -6%;
+		margin-left: 38%;
+	}
+	.play-btn-bar{
+		margin-left: 30%;
+	}
+	
+}
+
+
+
